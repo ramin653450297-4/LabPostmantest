@@ -1,0 +1,66 @@
+{
+	"id": "e8023b42-1d6d-467d-a8b6-b66169441ff1",
+	"name": "Product",
+	"timestamp": "2024-09-29T04:33:04.969Z",
+	"collection_id": "38324477-5bcff8d5-9ce6-4727-8abf-81cb7c296430",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-29T04:33:02.102Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5e25d14f-2043-4853-9f08-f6a127a6ada9",
+			"name": "Get all product",
+			"url": "https://dummyjson.com/products",
+			"time": 1908,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1908
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d4bc221e-87cc-4939-ad75-47d8fafb3849",
+			"name": "Get Single Product",
+			"url": "https://dummyjson.com/products/500",
+			"time": 275,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				275
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2183,
+	"collection": {
+		"requests": [
+			{
+				"id": "5e25d14f-2043-4853-9f08-f6a127a6ada9",
+				"method": "GET"
+			},
+			{
+				"id": "d4bc221e-87cc-4939-ad75-47d8fafb3849",
+				"method": "GET"
+			}
+		]
+	}
+}

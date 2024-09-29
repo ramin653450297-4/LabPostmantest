@@ -1,0 +1,44 @@
+{
+	"id": "10faa577-bc1d-4910-a057-ed854488c869",
+	"name": "Authen",
+	"timestamp": "2024-09-28T10:57:23.787Z",
+	"collection_id": "38324477-af3ca7f6-da5d-41c7-9637-912da2df0d1c",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-28T10:57:21.783Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c0c2de4e-f0ed-47e5-855c-0c746f514dbc",
+			"name": "login",
+			"url": "https://dummyjson.com/auth/login",
+			"time": 1444,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1444
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1444,
+	"collection": {
+		"requests": [
+			{
+				"id": "c0c2de4e-f0ed-47e5-855c-0c746f514dbc",
+				"method": "POST"
+			}
+		]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"id": "b18ec5c6-8ebe-41e7-ae88-518c0ba1ca36",
+	"name": "Users",
+	"timestamp": "2024-09-29T04:33:49.635Z",
+	"collection_id": "38324477-64ecc0d2-d89d-452c-8e45-8ac669fbad49",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-29T04:33:48.815Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1049d78f-a888-4392-9cf9-2708a2b8f762",
+			"name": "Get user profile",
+			"url": "https://dummyjson.com/auth/me",
+			"time": 311,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				311
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 311,
+	"collection": {
+		"requests": [
+			{
+				"id": "1049d78f-a888-4392-9cf9-2708a2b8f762",
+				"method": "GET"
+			}
+		]
+	}
+}

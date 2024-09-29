@@ -1,0 +1,44 @@
+{
+	"id": "5c2a76fc-157d-47f8-ba8d-066b5546ccbe",
+	"name": "Post",
+	"timestamp": "2024-09-29T04:33:25.454Z",
+	"collection_id": "38324477-15867279-0fb7-4e14-b5fd-f4f6f294b4ef",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-29T04:33:24.684Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "633585cb-c792-4321-aa1d-8f5acd6648bd",
+			"name": "Add a post",
+			"url": "https://dummyjson.com/posts/add",
+			"time": 284,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				284
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 284,
+	"collection": {
+		"requests": [
+			{
+				"id": "633585cb-c792-4321-aa1d-8f5acd6648bd",
+				"method": "POST"
+			}
+		]
+	}
+}
